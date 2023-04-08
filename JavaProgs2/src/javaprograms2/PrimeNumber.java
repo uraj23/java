@@ -26,9 +26,11 @@ public class PrimeNumber {
 	    	   }
 	    	   if(flag)
     		   {
+	    		   System.out.print(i+" ");
     			 sum=sum+i;  
     		   }
 	       }
+	       System.out.println("\n Sum of all prime numbers in range");
 	       System.out.println(sum);
 					
 		

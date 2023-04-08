@@ -11,7 +11,7 @@ public class UsingTerrnaryOperator {
 			
 			(b>c?(b>d?(b>e?b:e):(d>e?d:e)):(c>d?(c>e?c:e):(d>e?d:e)));
 		
-		int var2=a>b&&a>c&&a>d&&a>e?a:(b>c&&b>d&&b>e?b:(c>d&&c>e)?c:d>e?d:e);
+	int var2=a>b&&a>c&&a>d&&a>e?a:(b>c&&b>d&&b>e?b:(c>d&&c>e)?c:d>e?d:e);
 		System.out.println("highest value "+var2);
 		System.out.println("highest value "+var);
 	}

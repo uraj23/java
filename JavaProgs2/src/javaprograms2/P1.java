@@ -1,5 +1,7 @@
 package javaprograms2;
 
+import java.util.Arrays;
+
 public class P1 
 {
 	 public static boolean isPalindrome(String s) 
@@ -35,7 +37,8 @@ public class P1
 	        String revStr="";
 	        for(int i=0; i<s.length(); i++){
 	            char ch= s.charAt(i);
-	            if((ch>=48 && ch<=57) || (ch>=65 && ch<=90) || (ch>=97 && ch <=122)){
+	            if((ch>=48 && ch<=57) || (ch>=65 && ch<=90) || (ch>=97 && ch <=122))
+	            {
 	                if(ch>=65 && ch<=90) ch= (char) (ch+32);
 	                newStr += ch;
 	                revStr = ch+revStr;
@@ -49,6 +52,12 @@ public class P1
 		System.out.println( isPalindrome(s));
 		
 		System.out.println((char)48);
+		 
+				 
+		 		
+		
+		
+		
 	}
 	}
 
